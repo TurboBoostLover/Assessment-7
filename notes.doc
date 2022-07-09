@@ -1,0 +1,7 @@
+Extra Large Array - insert 927ms append 2.5ms
+Large Array - insert 7.5ms append 454μs
+Medium Array - insert 162μs append 116μs
+Small Array - insert 45μs append 93μs
+Tiny Array - insert 33μs append 77μs
+
+The append function(push) scales better. It has a time complexity of O(1) vs the insert function(unshift) which has a time complexity of O(n)
